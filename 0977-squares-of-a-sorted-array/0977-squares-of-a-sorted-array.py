@@ -10,6 +10,7 @@ class Solution:
             else:
                 result.append(nums[right]**2)
                 right = right - 1
-        return result[::-1]
+        result = result[::-1]
+        return result
 
         
