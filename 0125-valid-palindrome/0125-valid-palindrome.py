@@ -1,7 +1,7 @@
 class Solution:
     def isPalindrome(self, s: str) -> bool:
+        #removing all the alphanumeric characters and converting sttring to lower case
         s = ''.join(c.lower() for c in s if c.isalnum())
-        #s = s.lower()
         left = 0
         right = len(s) - 1
         while left < right:
