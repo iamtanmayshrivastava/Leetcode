@@ -7,7 +7,8 @@ class Solution:
             if s == target:
                 return [left +1, right +1]
             elif s < target:
-                left += 1
+                left = left + 1
+
             else:
-                right -= 1
+                right = right - 1
         
