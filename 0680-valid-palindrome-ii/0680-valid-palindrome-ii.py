@@ -2,7 +2,7 @@ class Solution:
     def validPalindrome(self, s: str) -> bool:
 
         def check(l, r):
-            left, right = l,r  # check if substring s[l:r+1] is palindrome
+            left, right = l,r  # check if substring is palindrome
             while left < right:
                 if s[left] != s[right]:
                     return False
