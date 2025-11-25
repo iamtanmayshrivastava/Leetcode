@@ -1,5 +1,6 @@
 class Solution:
     def twoSum(self, numbers: List[int], target: int) -> List[int]:
+        #when input array is sorted use two poiner approach
         left, right = 0, len(numbers) - 1
         while left < right:
             s = numbers[left] + numbers[right]
