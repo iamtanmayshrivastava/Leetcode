@@ -1,6 +1,6 @@
 class Solution:
     def removeDuplicates(self, nums: List[int]) -> int:
-        if not nums:
+        if not nums: # 0 elements in array (empty)
             return 0
         k = 1
         n = len(nums)
